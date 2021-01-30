@@ -1,0 +1,22 @@
+.login {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-content: center; }
+  .login .box {
+    background-color: #fff;
+    width: 350px;
+    height: 250px;
+    padding: 10px; }
+  .login .register {
+    height: 320px; }
+  .login .loginBox {
+    line-height: 24px; }
+
+.codeStyle {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=loginForm.css.map */

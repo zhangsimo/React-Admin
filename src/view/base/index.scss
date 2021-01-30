@@ -1,0 +1,33 @@
+.siderType{
+  height: 100%;
+}
+.logo {
+  height: 64px;
+  h1 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 64px;
+    text-align: center;
+  }
+}
+.site-layout-background {
+  background-color: #fff;
+  box-sizing: border-box;
+  @include webkit(box-shadow , 0 3px 16px 0 rgba(0,0,0,.1))
+}
+
+.layout-header {
+  padding-left: 16px ;
+
+
+}
+.changeUserType:hover{
+  background-color: #f0f2f5;
+}
+
+//用来统一表头垂直不高兴改了
+.loginUser {
+  vertical-align: middle
+}
+
+

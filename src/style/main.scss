@@ -1,0 +1,20 @@
+@import "./index.scss";
+@import "./calss.scss";
+
+body{
+  background-color: #002159;
+}
+
+//配置样式兼容问题
+@mixin webkit($attr , $value){
+  -webkit-#{$attr}: $value;
+  -moz-#{$attr}: $value;
+  -ms-#{$attr}: $value;
+  -o-#{$attr}: $value;
+  #{$attr}: $value;
+;
+}
+
+#root {
+  height: 100%;
+}
